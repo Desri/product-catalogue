@@ -1,0 +1,150 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  background-color: $smooth-grey;
+}
+body {
+  max-width: 430px;
+  width: 100%;
+  margin: 0 auto;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+body, .p-component {
+  font-family: 'Roboto-Regular', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:focus-visible {
+  outline: 0px;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2,minmax(0,1fr));
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.mx-3 {
+  margin: 0px 15px;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.my-1 {
+  margin: 1rem 0px;
+}
+.p-3 {
+  padding: 15px;
+}
+.px-3 {
+  padding: 0px 15px;
+}
+.py-1 {
+  padding: 10px 0px;
+}
+.w-full {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.boxLayout {
+  padding-bottom: 60px;
+}
+
+/*============================================
+                COLORS TEXT
+=============================================*/
+.text{
+  &-grey {
+    color: $grey !important;
+  }
+  &-smooth-grey {
+    color: $smooth-grey;
+  }
+  &-dark-grey {
+    color: $dark-grey;
+  }
+  &-yellow {
+    color: $yellow !important;
+  }
+  &-smooth-white {
+    color: $smooth-white;
+  }
+  &-smooth-green {
+    color: $smooth-green;
+  }
+}
+
+/*============================================
+            BACKGROUND COLORS
+=============================================*/
+.bg{
+  &-smooth-grey {
+    background: $smooth-grey !important;
+  }
+  &-primary-grey {
+    background: $primary-grey !important;
+  }
+}
+
+/*============================================
+                  BOX SHADOW
+=============================================*/
+.box-shadow{
+  box-shadow: 0 1px 4px rgba(141,150,170,0.4);
+}
+
+/*============================================
+                FONT FAMILY
+=============================================*/
+.font-regular {
+  font-family: 'Roboto-Regular', sans-serif;
+}
+.font-medium {
+  font-family: 'Roboto-Medium', sans-serif;
+}
+.font-medium-italic {
+  font-family: 'Roboto-MediumItalic', sans-serif;
+}
+.font-bold {
+  font-family: 'Roboto-Bold', sans-serif;
+}
+.font-italic {
+  font-family: 'Roboto-Italic', sans-serif;
+}
+.font-light {
+  font-family: 'Roboto-Light', sans-serif;
+}
+.font-light-italic {
+  font-family: 'Roboto-LightItalic', sans-serif;
+}
+.font-thin {
+  font-family: 'Roboto-Thin', sans-serif;
+}
+.font-thin-italic {
+  font-family: 'Roboto-ThinItalic', sans-serif;
+}
